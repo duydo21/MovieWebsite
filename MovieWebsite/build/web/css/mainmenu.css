@@ -1,0 +1,209 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+header {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: inline-flex;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+body{
+    display: flex;
+    flex-direction:column;
+    background: #1b2838;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: arial;
+}
+/*footer{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    color: #f1f1f1;
+    text-align: center;
+    line-height: 30px;
+    margin-top: auto;
+    margin: 0 auto;
+}*/
+
+
+/*dropdown navigation*/
+.menu{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(95, 95, 95);
+    width: 200px;
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color:black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*nut bam login va register tren header*/
+.login span {
+    margin: 10px 16px;
+    float: left;
+    list-style: none;
+    width: 160px;
+    height: 60px;
+    background: chocolate;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.login span a {
+    text-decoration: none;
+    color: bisque;
+    cursor: pointer;
+}
+
+.login{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.logout{
+    margin: 10px 16px;
+    float: left;
+    list-style: none;
+    width: 160px;
+    height: 60px;
+    background: chocolate;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+.logout input{
+    border: none;
+    background: chocolate;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*avatar ng dung*/
+span>img{
+    border-radius: 50%;
+    width: 40%;
+}
+#avatar{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/*phan than main menu*/
+.row{
+    display: flex;
+    margin-left: 10%;
+    min-height: 775px;
+    
+}
+.col-1{
+/*    background-color: rgba(0, 0, 0, 0.2);
+    width: 60%;
+    height: 900px;
+    margin-right: 5%;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;*/
+}
+.col-2{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 20%;
+    height: 560px;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60%;
+    position: absolute;
+}
+
+.col-2 input[type=text]{
+    font-size: 17px;
+    border: none;
+    width: 90%;
+    height: 5%;
+    border-radius: 25px;
+}
+.search{
+    font-family: inherit;
+    font-size: 120%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+table{
+    border-color: rgba(0, 0, 0, 0);
+}
+table th{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: grey;
+    margin-right: 5%;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+table th:hover{
+    background-color: activeborder;
+} 
+table tr:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+} 
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+

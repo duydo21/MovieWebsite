@@ -1,0 +1,40 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+.menu ul li{
+
+    background-color: white;
+    display: inline-flex;
+    text-decoration: none;
+    width: 100px;
+    margin: 15px;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 5px ;
+    font-size: larger;
+
+}
+.menu ul li:hover{
+    background-color: #f9f9f9;
+    color: #e156ff;
+}
+.menu ul li a:hover{    
+    color: #e156ff;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.sub-menu{
+    display: none;
+}
+
+.menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: lightgray;
+    margin-top: 35px;
+    margin-left: -30px;
+}
+
